@@ -3,12 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   ft_toupper.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: chonorat <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: chonorat <chonorat@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/08 15:43:19 by chonorat          #+#    #+#             */
-/*   Updated: 2022/11/08 15:43:22 by chonorat         ###   ########lyon.fr   */
+/*   Updated: 2022/12/05 16:37:51 by chonorat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "libft.h"
 
 int	ft_toupper(int c)

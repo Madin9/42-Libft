@@ -12,14 +12,14 @@
 
 #include "libft.h"
 
-int	check_space(char c)
+static int	check_space(char c)
 {
 	if ((c >= 9 && c <= 13) || c == ' ')
 		return (1);
 	return (0);
 }
 
-int	check_number(char c)
+static int	check_number(char c)
 {
 	if (c >= '0' && c <= '9')
 		return (1);
@@ -50,11 +50,3 @@ int	ft_atoi(const char *str)
 	}
 	return (value * sign);
 }
-/*int main(int argc, char *argv[])
-{
-	if (argc != 0)
-	{
-		printf("atoi :%d\nft_atoi :%d\n", atoi(argv[1]), ft_atoi(argv[1]));
-	}
-	return (0);
-}*/

@@ -3,17 +3,18 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putstr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: chonorat <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: chonorat <chonorat@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/11/17 17:05:49 by chonorat          #+#    #+#             */
-/*   Updated: 2022/11/17 17:05:52 by chonorat         ###   ########lyon.fr   */
+/*   Created: 2022/12/05 16:27:59 by chonorat          #+#    #+#             */
+/*   Updated: 2022/12/05 16:28:00 by chonorat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "libft.h"
 
 void	ft_putstr_fd(char *s, int fd)
 {
-	int	index;
+	unsigned int	index;
 
 	index = 0;
 	if (!s)

@@ -3,12 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   ft_tolower.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: chonorat <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: chonorat <chonorat@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/08 15:50:57 by chonorat          #+#    #+#             */
-/*   Updated: 2022/11/08 15:50:58 by chonorat         ###   ########lyon.fr   */
+/*   Updated: 2022/12/05 16:37:38 by chonorat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "libft.h"
 
 int	ft_tolower(int c)

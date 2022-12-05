@@ -6,7 +6,7 @@
 /*   By: chonorat <chonorat@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/23 18:22:30 by chonorat          #+#    #+#             */
-/*   Updated: 2022/11/23 18:34:07 by chonorat         ###   ########.fr       */
+/*   Updated: 2022/12/05 16:33:49 by chonorat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,10 +18,10 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	unsigned int	index;
 
 	if (!s)
-		return (0);
+		return (NULL);
 	new_str = malloc((ft_strlen(s) + 1) * sizeof(char));
 	if (!new_str)
-		return (0);
+		return (NULL);
 	index = 0;
 	while (s[index])
 	{

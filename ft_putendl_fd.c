@@ -14,7 +14,7 @@
 
 void	ft_putendl_fd(char *s, int fd)
 {
-	int	index;
+	unsigned int	index;
 
 	if (!s)
 		return ;
