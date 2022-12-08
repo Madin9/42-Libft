@@ -6,7 +6,7 @@
 #    By: chonorat <chonorat@student.42lyon.fr>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/11/14 14:37:20 by chonorat          #+#    #+#              #
-#    Updated: 2022/11/15 13:32:52 by chonorat         ###   ########lyon.fr    #
+#    Updated: 2022/12/08 16:45:38 by chonorat         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -80,3 +80,5 @@ fclean: clean
 	$(RM) $(NAME)
 	
 re: clean all
+
+.PHONY: all bonus clean fclean re
