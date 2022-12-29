@@ -6,7 +6,7 @@
 /*   By: chonorat <chonorat@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/05 15:43:45 by chonorat          #+#    #+#             */
-/*   Updated: 2022/12/05 15:43:45 by chonorat         ###   ########.fr       */
+/*   Updated: 2022/12/27 16:14:54 by chonorat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,5 +22,4 @@ void	ft_putendl_fd(char *s, int fd)
 	while (s[index])
 		write(fd, &s[index++], 1);
 	write(fd, "\n", 1);
-	return ;
 }
